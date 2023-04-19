@@ -1,0 +1,16 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    background-image: linear-gradient(to bottom, #16223c 50%, #2dcc70 50%);
+    height: 100vh;
+    width: 219vh;
+    background-color: aqua;
+}
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

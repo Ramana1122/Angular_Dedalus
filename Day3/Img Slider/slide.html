@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slideshow</title>
+  </head>
+  <body>
+    <center>
+    <img id="slideshow" src="11.jpg" width="700" height="500">
+    
+    <script>
+      var images = ["11.jpg", "12.jpg", "13.jpg", "14.g"];
+      var currentIndex = 0;
+      var slideshow = document.getElementById("slideshow");
+      
+      setInterval(function() {
+        slideshow.src = images[currentIndex];
+        currentIndex = (currentIndex + 1) % images.length;
+      }, 2000);
+    </script>
+    </center>
+  </body>
+</html>

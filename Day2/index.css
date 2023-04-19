@@ -1,0 +1,124 @@
+body{
+		    
+    background-color:rgb(180, 181, 188);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+    /* Hide the content by default */
+  #content {
+  display: none;
+  }
+  
+  /* Show the content when the URL's fragment identifier is #show */
+  #show:target #content {
+  display: block;
+  }
+  
+  .show-form-button {
+  display: inline-block;
+  background-color: #5b4caf;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .show-form-button:hover {
+  background-color: #453e8e;
+  }
+  
+  /* Hide the button when the #show section is displayed */
+  #show:target .show-form-button {
+  display: none;
+  }
+  form {
+    display: none;
+  }
+  #show-form:checked ~ form {
+    display: block;
+  }
+  /* hide the button by default */
+  
+  
+  /* show the button when the form is visible */
+  
+  
+  /* change the color of the button on hover */
+  #show.active .close-form-button:hover {
+    color: rgb(38, 0, 255);
+  }
+  .container1 {
+    border: 7px solid #c22cc2;
+    border-radius:30px;
+    width:410px;
+    height:500px;
+    margin: 40px;
+    padding: 40px;
+    background-color: #19063f33;
+    box-shadow: 10px 5px 5px #142525;
+    
+    }
+    
+    .container1.text{
+    
+    font-size:35px;
+    
+   font-weight:600;
+    
+    text-align:center;
+    
+    }
+    
+    .container1.form{
+    
+    margin-top:-20px;
+    
+    }
+    
+    .container1.form.data
+    
+    {
+    
+    height:45px;
+    
+    width:100%;
+    
+    margin:40px 0;
+    
+    }
+    
+    form.data label{
+    
+   font-size:18px;
+    
+    }
+    
+    form.data input{
+    
+    height:100%;
+    
+    width:100%;
+    
+    padding-left:10px;
+    
+    font-size:17px;
+    
+    border:1px solid lightgrey;
+    
+    }
+    .fire{
+      position: relative;
+      padding-left: 399px;
+      font-size: 30px;
+    
+    
+      right:25px;
+      bottom: 457px;
+      
+    }
