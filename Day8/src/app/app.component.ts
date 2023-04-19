@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {datafields}  from './appdata/info'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Day8';
+
+  dataitems=datafields
+
+
 }
