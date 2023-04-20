@@ -1,0 +1,32 @@
+.menu-bar{
+    background-color: rgb(123, 221, 208) !important;
+    color: black ! important;
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+ul{
+    margin-left: 200px;
+}
+li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(1, 27, 156)
+}
+
+a:active {
+    color: rgb(200, 231, 241);
+}

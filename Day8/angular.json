@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "complete-app": {
+    "Day9": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/complete-app",
+            "outputPath": "dist/day9",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "complete-app:build:production"
+              "browserTarget": "Day9:build:production"
             },
             "development": {
-              "browserTarget": "complete-app:build:development"
+              "browserTarget": "Day9:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "complete-app:build"
+            "browserTarget": "Day9:build"
           }
         },
         "test": {
@@ -98,6 +98,6 @@
     }
   },
   "cli": {
-    "analytics": "a72da711-8e8f-418f-a94e-90dad2a8a752"
+    "analytics": "79087097-8d5c-44af-9e30-93eaca91805c"
   }
 }

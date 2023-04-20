@@ -1,0 +1,30 @@
+.about-box {
+    background-color: rgb(227, 254, 120);
+    border: 2px solid red;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .message {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .type {
+    font-size: 14px;
+    color: rgb(59, 58, 58);
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  
