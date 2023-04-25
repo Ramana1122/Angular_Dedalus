@@ -1,0 +1,19 @@
+.example-card{
+  float: left;
+  width: 250px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 100px 20px;
+  border: 1px solid black;
+}
+
+.example-header-image{
+  height: 300px;
+  padding: 10px;
+}
+
+.txtt{
+  text-align: center;
+  margin-left: 70px;
+} 
+
